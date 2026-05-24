@@ -14,60 +14,404 @@
             </a>
             <nav class="header__nav nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="" class="nav__link">bosh sahifa</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">men haqimda</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">xizmatlar</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">loyihalar</a></li>
+                    <li class="nav__item"><a href="#ozim"    class="nav__link">bosh sahifa</a></li>
+                    <li class="nav__item"><a href="#about"   class="nav__link">men haqimda</a></li>
+                    <li class="nav__item"><a href="#dost"    class="nav__link">do'stlarim</a></li>
+                    <li class="nav__item"><a href="#oqtuvchi" class="nav__link">ustozlarim</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">loyihalar</a></li>
+                    <li class="nav__item"><a href="#service" class="nav__link">xizmatlar</a></li>
                 </ul>
             </nav>
-
+            
         </div>
     </header>
-
+    
     <main>
-        <section class="ozim">
+        <section class="ozim" id="ozim">
             <div class="container ozim__wrapper">
                 <div class="ozim__content">
-                    <h1 class="ozim__title">Salom, mening ismim Axmedov Odil men front end developer</h1>
-                    <p class="ozim__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Iste perferendis assumenda esse ullam error debitis sapiente. Officia,
-                        tempora quidem! Adipisci eveniet voluptas exercitationem quasi 
-                        illo accusamus expedita, debitis quas laudantium!</p>
-                    <a href="" class="ozim__link">Ozim haqimda</a>
+                    <h1 class="ozim__title">Salom, mening ismim Axmedov Odil men <span>front end developerman</span></h1>
+                    <p class="ozim__desc">HTML CSS JavaScript</p>
+                    <a href="#contact" class="ozim__link">contact</a>
                 </div>
-
+                
                 
                 <div class="ozim__img-wrapper">
-                    <img src="./assets/logo.png" alt="">
+                    <img src="./assets/ozim.png" alt="">
                 </div>
-        </section>
-        <section class="about" id="about">
-            <div class="container about__wrapper">
-                <div class="about__content">
-                    <h2 class="about__title">Men</h2>
-                    <p class="about__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rerum quam nihil illo dicta a perferendis numquam nemo omnis. Vero ratione cum, atque aspernatur minima consectetur excepturi esse ad cupiditate!</p>
+            </section>
+            <section class="about" id="about">
+                <div class="container about__wrapper">
+                    <div class="about__content">
+                        <h2 class="about__title">Men ozim haqimda aytib beraman</h2>
+                        <p class="about__desc">Men  14 yoshman hozir HTML, CSS va Java Script   buni men 8 oydan beri organaman shuncha vaqt ichida men nima qilganimni korsataman</p>
+                    </div>
+                    
+                    <ul class="about__list">
+                        <li class="about__item">HTML</li>
+                        <li class="about__item">CSS</li>
+                        <li class="about__item">SCSS/Sass</li>
+                        <li class="about__item">Boostrap</li>
+                        <li class="about__item">JavaScript</li>
+                    </ul>
+                    
                 </div>
-
-                <ul class="about__list">
-                    <li class="about__item">HTML</li>
-                    <li class="about__item">CSS</li>
-                    <li class="about__item">SCSS/Sass</li>
-                    <li class="about__item">Boostrap</li>
-                    <li class="about__item">JavaScript</li>
-                </ul>
-
+            </section>
+            
+            
+            <section class="family" id="family">
+                <div class="container family__wrapper">
+                    <div class="family__content">
+                        <h1 class="family__title">
+                            Oilam meni kuchim 
+                        </h1>
+                        <p class="family__desc">
+                            bu mening oilam ular juda mehribon men adam va onamni juda yaxshi koraman ular men uchun kop narsa qilishga oilamda onam, adam, 2ta opam, akam va yangan bor
+                        </p>
+                    </div>
+                    <div class="family__img">
+                        <img src="oila.png" alt="">
+                    </div>
+                </div>
+            </section>
+            
+            <section class="interests" id="qiziq">
+                <div class="container">
+                    <h1>✨ Mening <span>Qiziqishlarim</span></h1>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="icon">🧮</div>
+                            <h2>Matematika</h2>
+                            <p>
+                                Tenglama va geometriya
+                                masalalarini yechish
+                            </p>
+                            <div class="progress">
+                                <div class="line purple"></div>
+                            </div>
+                            <span class="percent">88%</span>
+                        </div>
+                        <div class="card">
+                            <div class="icon">🌍</div>
+                            <h2>Ingliz tili</h2>
+                            <p>
+                                Grammar, speaking va inglizcha
+                                filmlar
+                            </p>
+                            <div class="progress">
+                                <div class="line green"></div>
+                            </div>
+                            <span class="percent">75%</span>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="card">
+                            <div class="icon">💻</div>
+                            <h2>Frontend</h2>
+                            <p>
+                                HTML, CSS va JS bilan sayt
+                                yaratish
+                            </p>
+                            <div class="progress">
+                                <div class="line orange"></div>
+                            </div>
+                            <span class="percent">80%</span>
+                        </div>
+                        <div class="card">
+                            <div class="icon">🎮</div>
+                            <h2>Roblox</h2>
+                            <p>
+                                Do'stlar bilan o'yin va qurilish
+                                modlari
+                            </p>
+                            <div class="progress">
+                                <div class="line red"></div>
+                            </div>
+                            <span class="percent">95%</span>
+                        </div>
+                        <div class="card">
+                            <div class="icon">⛏️</div>
+                            <h2>Minecraft</h2>
+                            <p>
+                                Survival, creative va redstone
+                                qurilmalar
+                            </p>
+                            <div class="progress">
+                                <div class="line lime"></div>
+                            </div>
+                            <span class="percent">92%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            <section class="conatct" id="contact">
+                <h2 class="contact__title">Contact</h2>
+                <input type="text" placeholder="Your Name" class="contact__desc">
+                <input type="email" placeholder="Your Email" class="contact__email">
+                <textarea placeholder="Message" class="contact__subdesc"></textarea>
+                <button class="btn" onclick="sendMessage()">Send</button>
+            </section>
+            
+            
+            
+            
+            
+            <section class="friends-section" id="dost">
+                <h2>Mening Do'stlarim</h2>
+                
+                <div class="slider">
+                    <div class="slide-track">
+                        
+                        <!-- 10 ta do'st -->
+                        <div class="slide" onclick="openM('Abdulaziz Umarov', 'U har doim so‘zida turadi va qiyin damda birinchi bo‘lib yordamga keladi.')">
+                            <img src="./ortolar/s1.png">
+                            <div class="overlay"><h3>Abdulaziz Umarov</h3><p>Yaxshi tarafi: hazlkash va yaxshi odam</p></div>
+                        </div>
+                        
+                        <div class="slide" onclick="openM('Laziz Qodirjonov', 'Uning hazillari hatto eng g‘amgin insonni ham kuldira oladi.')">
+                            <img src="./ortolar/s2.png">
+                            <div class="overlay"><h3>Laziz Qodirjonov</h3><p>Yaxshi tarafi: Doim pozitiv energiya tarqatadi</p></div>
+                        </div>
+                        
+                        <div class="slide" onclick="openM('Abdulaziz Sodiqjonov', 'kop narsada yordam beradi yecholmasa boshqalarni yordami bilan yechadi')">
+                            <img src="./ortolar/s3.png">
+                            <div class="overlay"><h3>Abdulaziz Sodiqjonov</h3><p>Yaxshi tarafi: Juda kuchli mantiqiy bilim</p></div>
+                        </div>
+                        
+                        <div class="slide" onclick="openM('Sarvar Akimbayev', 'Sportda juda intizomli va irodasi juda baquvvat.')">
+                            <img src="./ortolar/s4.png">
+                            <div class="overlay"><h3>Sarvar Akimbayev</h3><p>Yaxshi tarafi: Kuchli iroda va intizom</p></div>
+                        </div>
+                        
+                        <div class="slide" onclick="openM('Alisher Samandarov', 'BU bola Matematikava dasturlashga qiziqadi')">
+                            <img src="./ortolar/s5.png">
+                            <div class="overlay"><h3>Alisher Samandarov</h3><p>Yaxshi tarafi: Matematikada yaxshi va zor bola</p></div>
+                        </div>
+                        
+                        <div class="slide" onclick="openM('Bilol Abdunazarov', 'Uning sabriga hamma havas qiladi, juda mulohazali.')">
+                            <img src="./ortolar/s6.png">
+                            <div class="overlay"><h3>Bilol Abdunazarov</h3><p>Yaxshi tarafi: Sabrli va aqlli</p></div>
+                        </div>
+                        
+                        <div class="slide" onclick="openM('Habibullox Jorayev', 'Dizayn borasida eng zori, ijodkor inson.')">
+                            <img src="./ortolar/s7.png">
+                            <div class="overlay"><h3>Habibullox Jorayev</h3><p>Yaxshi tarafi: Ijodkor va didli</p></div>
+                        </div>
+                        
+                        <div class="slide" onclick="openM('Hojiakbar Narzullyev', 'Yaxshi bola Matematikaga qiziqadi va aqlli.')">
+                            <img src="./ortolar/s8.png">
+                            <div class="overlay"><h3>Hojiakbar Narzullayev</h3><p>Yaxshi tarafi: Matematika va vafodor</p></div>
+                        </div>
+                        
+                        <div class="slide" onclick="openM('Muhammad Yusuf Hamidov', 'Bu bola hamma narsaga tushunadi yordam beradi va hazlkash bola .')">
+                            <img src="./ortolar/s9.png">
+                            <div class="overlay"><h3>Muhammad Yusuf Hamidov</h3><p>Yaxshi tarafi: Aqlli va zor dost</p></div>
+                        </div>
+                        
+                        <div class="slide" onclick="openM('Muhamadali Yusupov', 'Hamma bilan tez til topishib ketadigan samimiy inson.')">
+                            <img src="./ortolar/s10.png">
+                            <div class="overlay"><h3>Muhamadali Yusupov</h3><p>Yaxshi tarafi: Aqlli va samimiy</p></div>
+                        </div>
+                        
+                        <!-- Cheksiz aylanish uchun birinchi 5 ta rasm nusxasi -->
+                        <div class="slide" onclick="openM('Abdulaziz Umarov', 'U har doim so‘zida turadi va qiyin damda birinchi bo‘lib yordamga keladi.')">
+                            <img src="./ortolar/s1.png">
+                            <div class="overlay"><h3>Abdulaziz Umarov</h3><p>Yaxshi tarafi: hazlkash va yaxshi odam</p></div>
+                        </div>
+                        <div class="slide" onclick="openM('Laziz Qodirjonov', 'Uning hazillari hatto eng g‘amgin insonni ham kuldira oladi.')">
+                            <img src="./ortolar/s2.png">
+                            <div class="overlay"><h3>Laziz Qodirjonov</h3><p>Yaxshi tarafi: Doim pozitiv energiya tarqatadi</p></div>
+                        </div>
+                        <div class="slide" onclick="openM('Abdulaziz Sodiqjonov', 'kop narsada yordam beradi yecholmasa boshqalarni yordami bilan yechadi')">
+                            <img src="./ortolar/s3.png">
+                            <div class="overlay"><h3>Abdulaziz Sodiqjonov</h3><p>Yaxshi tarafi: Juda kuchli mantiqiy bilim</p></div>
+                        </div>
+                        <div class="slide" onclick="openM('Sarvar Akimbayev', 'Sportda juda intizomli va irodasi juda baquvvat.')">
+                            <img src="./ortolar/s4.png">
+                            <div class="overlay"><h3>Sarvar Akimbayev</h3><p>Yaxshi tarafi: Kuchli iroda va intizom</p></div>
+                        </div>
+                        <div class="slide" onclick="openM('Alisher Samandarov', 'BU bola Matematikava dasturlashga qiziqadi')">
+                            <img src="./ortolar/s5.png">
+                            <div class="overlay"><h3>Alisher Samandarov</h3><p>Yaxshi tarafi: Matematikada yaxshi va zor bola</p></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Modal -->
+            <div id="friendModal" class="modal" onclick="closeM()">
+                <div class="modal-content" onclick="event.stopPropagation()">
+                    <span class="close" onclick="closeM()">&times;</span>
+                    <h2 id="mName"></h2>
+                    <p id="mDesc"></p>
+                </div>
             </div>
-        </section>
-
-        <section class="project" id="project">
+            
+            
+            <section class="teachers-section">
+                <div class="container">
+                    <h2 class="section-title">Bizning Ustozlarimiz</h2>
+                
+                <div class="teachers-grid">
+                    <!-- 1. Asilbek Olimov -->
+                    <div class="teacher-card">
+                        <img src="./oqtuvchi/oqt1.JPG" alt="Asilbek Olimov" class="teacher-img">
+                        <div class="teacher-info">
+                            <p class="teacher-name">Otabek Xo'shboqov</p>
+                            <p class="teacher-subject">Matematika</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 2. Malika Rahmonova -->
+                    <div class="teacher-card">
+                        <img src="./oqtuvchi/oqt2.JPG" alt="Malika Rahmonova" class="teacher-img">
+                        <div class="teacher-info">
+                            <p class="teacher-name">Zoyidjon Nasreddinov</p>
+                            <p class="teacher-subject">Front End</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 3. Dilnoza Saidova -->
+                    <div class="teacher-card">
+                        <img src="./oqtuvchi/oqt3.JPG" alt="Dilnoza Saidova" class="teacher-img">
+                        <div class="teacher-info">
+                            <p class="teacher-name">Shahlo Doniyorava</p>
+                            <p class="teacher-subject">Ingliz tili</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 4. Jasur Ahrorov -->
+                    <div class="teacher-card">
+                        <img src="./oqtuvchi/oqt4.JPG" alt="Jasur Ahrorov" class="teacher-img">
+                        <div class="teacher-info">
+                            <p class="teacher-name">Karimov Elyor</p>
+                            <p class="teacher-subject">Tarix</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 5. Gulnoza Umarova -->
+                    <div class="teacher-card">
+                        <img src="./oqtuvchi/oqt5.JPG" alt="Gulnoza Umarova" class="teacher-img">
+                        <div class="teacher-info">
+                            <p class="teacher-name">Abdualiev Dilmurod</p>
+                            <p class="teacher-subject">Fizika</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 6. Sardor Toshpulatov -->
+                    <div class="teacher-card">
+                        <img src="./oqtuvchi/oqt6.JPG" alt="Sardor Toshpulatov" class="teacher-img">
+                        <div class="teacher-info">
+                            <p class="teacher-name">Xujaqulova Iroda </p>
+                            <p class="teacher-subject">Uslubchi metodist</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 7. Zilola Karimova -->
+                    <div class="teacher-card">
+                        <img src="./oqtuvchi/oqt7.JPG" alt="Zilola Karimova" class="teacher-img">
+                        <div class="teacher-info">
+                            <p class="teacher-name">Hasanova Saodat</p>
+                            <p class="teacher-subject">O'quv ishlari bo'yicha direktor o'rinbosari</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 8. Farrux Aliyev -->
+                    <div class="teacher-card">
+                        <img src="./oqtuvchi/oqt8.png" alt="Farrux Aliyev" class="teacher-img">
+                        <div class="teacher-info">
+                            <p class="teacher-name">Naima Roziyeva</p>
+                            <p class="teacher-subject">Tutor</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 9. Nigora Yusupova -->
+                    <div class="teacher-card">
+                        <img src="./oqtuvchi/oqt9.png" alt="Nigora Yusupova" class="teacher-img">
+                        <div class="teacher-info">
+                            <p class="teacher-name">Iroda Abdullayeva</p>
+                            <p class="teacher-subject">Figma dezayner</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 10. Rustam Hikmatov -->
+                    <div class="teacher-card">
+                        <img src="./oqtuvchi/oqt10.png" alt="Rustam Hikmatov" class="teacher-img">
+                        <div class="teacher-info">
+                            <p class="teacher-name">Noila Madumarova</p>
+                            <p class="teacher-subject">Direktor</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            
+            
+            
+            
+            
+            <section class="project" id="project">
                 <div class="container project__wrapper">
                     <h2 class="project__title">Loyihalarim</h2>
                     <ul class="project__list">
                         <li class="project__item">
-                            <a href="https://mathcore-academy.vercel.app/" class="project__link" target="_blank">
+                            <a href="https://foodiodil.netlify.app/" class="project__link">
+                                <img src="./assets/loyiha-2.png" alt="" class="project__img">
+                                <h3 class="project__subtitle">FoodI</h3>
+                                <p class="project__subdesc">bu bizni sizga korsatish kerak bolgan loyiha</p>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="https://trafalgar67.netlify.app/" class="project__link" target="_blank">
                                 <img src="./assets/loyiha-1.png" alt="" class="project__img">
-                                <h3 class="project__subtitle">MathCore</h3>
-                                <p class="project__subdesc">Matematika boyicha platforma</p>
+                                <h3 class="project__subtitle">trafalgar</h3>
+                                <p class="project__subdesc">birinchi saytlarimdan biri</p>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="https://kankulator-odil.netlify.app/" class="project__link">
+                                <img src="./assets/loyiha-3.png " alt="" class="project__img">
+                                <h3 class="project__subtitle">kankulator</h3>
+                                <p class="project__subdesc">buni yasash oson bolgan</p>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="https://parolgenerator.netlify.app/" class="project__link">
+                                <img src="./assets/loyiha-4.png" alt="" class="project__img">
+                                <h3 class="project__subtitle">parol generatori</h3>
+                                <p class="project__subdesc">men buni qiyin yangi parol kerak bolsa ishlataman</p>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="https://orzu-foododil.netlify.app/" class="project__link">
+                                <img src="./assets/loyiha-5.png" alt="" class="project__img">
+                                <h3 class="project__subtitle">orzu food</h3>
+                                <p class="project__subdesc">buni men bir ozim ikki kun ichida qilganman</p>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="https://rang-generatori6767.netlify.app/" class="project__link">
+                                <img src="./assets/loyiha-6.png" alt="" class="project__img">
+                                <h3 class="project__subtitle">Bu rang generatori</h3>
+                                <p class="project__subdesc">buni men uncha kop qilmaganman 2soat ketgan</p>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="https://sekundomer2.vercel.app/" class="project__link">
+                                <img src="./assets/loyiha-7.png" alt="" class="project__img">
+                                <h3 class="project__subtitle">sekundomer/timer</h3>
+                                <p class="project__subdesc">bu sekundamer va timer bor bor bu oson ish edi</p>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="https://kinolarkozimm.netlify.app/" class="project__link">
+                                <img src="./assets/loyiha-8.png" alt="" class="project__img">
+                                <h3 class="project__subtitle">Kinolar</h3>
+                                <p class="project__subdesc">bu yerda men kinolar qilganman va janrlar belgilaganman</p>
                             </a>
                         </li>
                         <li class="project__item">
@@ -126,138 +470,132 @@
                                 <p class="project__subdesc"></p>
                             </a>
                         </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
-                        <li class="project__item">
-                            <a href="" class="project__link">
-                                <img src="" alt="" class="project__img">
-                                <h3 class="project__subtitle"></h3>
-                                <p class="project__subdesc"></p>
-                            </a>
-                        </li>
+                        
                     </ul>
                 </div>
             </section>
-            <section class="family" id="family">
-                <div class="container family__wrapper">
-                    
+            
+            <section class="xiz" id="service">
+                <div class="container xiz__wrapper">
+                    <h2 class="xiz__title">   NIMALARDAN YORDAM BERA OLAMAN</h2>
+                    <div class="xiz__content">
+                        <div class="xiz__action">
+                            <img src="./assets/xiz1.png" alt="" height="100px">
+                            <h4 class="xiz__subtitle">C++</h4>
+                            <p class="xiz__desc">Men C++ dasturlash tilini 1 yildan beri o‘rganganman. Bu vaqt davomida dastur tuzish, algoritmlar bilan ishlash va mantiqiy fikrlash bo‘yicha ko‘p tajriba oldim</p>
+                        </div>
+                        <div class="xiz__action">
+                            <img src="./assets/xiz2.png" alt="">
+                            <h4 class="xiz__subtitle">Figma spetsalist</h4>
+                            <p class="xiz__desc">Figma orqali har-xil dizayn animatsiya fatashop yarataman. osha dizaynni kodga otqazish yolini soddalashtiraman</p>
+                        </div>
+                        <div class="xiz__action">
+                            <img src="./assets/xiz3.png" alt="">
+                            <h4 class="xiz__subtitle">hatolarni yechaman</h4>
+                            <p class="xiz__desc">juda qiyin muamolarni taxlil qilib qayerda hato borligini korib ularni yechaman agar bu men bolmasam boshqa odamga qayerda hato ketganini tushiuntiraman</p>
+                        </div>
+                        <div class="xiz__action">
+                            <img src="./assets/xiz4.png" alt="">
+                            <h4 class="xiz__subtitle">Front End</h4>
+                            <p class="xiz__desc">boshqalarga yordam beradigan kerakli boladi web sahifa yarataman unu funksianalniy qilib yarataman kodlarni tushunarli yozib beraman</p>
+                        </div>
+                        <div class="xiz__action">
+                            <img src="./assets/xiz5.png" alt="">
+                            <h4 class="xiz__subtitle">UI/<br>UX</h4>
+                            <p class="xiz__desc">Foydalanuvchi tajribasini o‘rganib, chiroyli va qulay interfeyslar yarataman. Figma, Adobe XD va prototiplash vositalarida malakali. Dizaynlarim intuitiv va zamonaviy bo'ladi.</p>
+                        </div>
+                        <div class="xiz__action">
+                            <img src="./assets/xiz6.png" alt="">
+                            <h4 class="xiz__subtitle">Matematika</h4>
+                            <p class="xiz__desc">Men matematikadan 7-sinf o‘quvchisiman. Hozir algebra va geometriya mavzularini o‘rganayapman, misollar ishlash va formulalarni tushunaman va boshqalarga yordam berishga harakat qilaman.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <section class="school" id="school">
-                <div class="container school__wrapper">
-                    
-                </div>
-            </section>
+            
+            
+            
+            
         </main>
-        <footer class="site-footer footer">
-            <div class="container footer__wrapper">
-
+        <footer class="footer">
+            <div class="footer__top">
+                <div>
+                    <h2 class="footer__logo">Odil Axmedov<span>.</span></h2>
+                    <p class="footer__tagline">14 yoshli frontend dasturchi. HTML, CSS va JavaScript o'rganmoqdaman.</p>
+                    <div class="footer__socials">
+                        <a class="social-btn" href="#" aria-label="GitHub">
+                            <i class="ti ti-brand-github"><img src="github.png" alt="" width="20px"></i>
+                        </a>
+                        <a class="social-btn" href="#" aria-label="Telegram">
+                            <i class="ti ti-brand-telegram"><img src="tg.png" alt="" width="20px"></i>
+                        </a>
+                        <a class="social-btn" href="#" aria-label="Instagram">
+                            <i class="ti ti-brand-instagram"><img src="inst.png" alt="" width="20px"></i>
+                        </a>
+                        <a class="social-btn" href="#" aria-label="Email">
+                            <i class="ti ti-mail"><img src="email.png" alt="" width="30px"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <p class="footer__col-title">Sahifalar</p>
+                    <ul class="footer__links">
+                        <li><a href="#ozim">Bosh sahifa</a></li>
+                        <li><a href="#about">Men haqimda</a></li>
+                        <li><a href="#project">Loyihalar</a></li>
+                        <li><a href="#qiziq">Ko'nikmalar</a></li>
+                        <li><a href="#contact">Aloqa</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <p class="footer__col-title">Texnologiyalar</p>
+                    <ul class="footer__links">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS / SCSS</a></li>
+                        <li><a href="#">Bootstrap</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copy">© 2024 Dev<span>.</span> — Barcha huquqlar himoyalangan</p>
+                <div class="footer__status">
+                    <div class="status-dot"></div>
+                    Yangi loyihalarga ochiqman
+                </div>
             </div>
         </footer>
-
-    </main>
-</body>
-</html>
+        
+        
+        <script>
+            function scrollToSection(id){
+                document.getElementById(id).scrollIntoView({
+                    behavior:'smooth'
+                });
+            }
+            
+            function sendMessage(){
+                alert("Xabar yuborildi ✅");
+            }
+            
+            function openM(name, desc) {
+                document.getElementById('mName').innerText = name;
+                document.getElementById('mDesc').innerText = desc;
+                document.getElementById('friendModal').style.display = 'flex';
+            }
+            
+            function closeM() {
+                document.getElementById('friendModal').style.display = 'none';
+            }
+            
+            window.onclick = function(event) {
+                if (event.target == document.getElementById('friendModal')) {
+                    closeM();
+                }
+            }
+        </script>
+    </body>
+    </html>
